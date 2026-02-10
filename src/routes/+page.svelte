@@ -63,7 +63,7 @@
 			</div>
 			<div class="chat-bubble">
 				Sure, here's the link 👇 <br />
-				<a href="/people" class="btn btn-gradient">People search</a>
+				<a href="./people" class="btn btn-gradient">People search</a>
 			</div>
 			<div class="chat-footer text-base-content/50">
 				Seen
@@ -97,7 +97,7 @@
 			</div>
 			<div class="chat-bubble">
 				I've got you covered! <br />
-				<a class="btn btn-gradient" href="/companies">Company search</a> <br />
+				<a class="btn btn-gradient" href="./companies">Company search</a> <br />
 			</div>
 			<div class="chat-footer text-base-content/50">
 				Seen
