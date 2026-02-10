@@ -1,38 +1,17 @@
-# sv
+# TL;DR?
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+There are many data providers offering people and company databases, and each database comes with it's own set of properties. The goal of this project was to explore whether an LLM can take a description from a user and transform it into several quesries (JSON files), where each query matches the filters from a given database.
 
-## Creating a project
+The answer is that, yes, it can be done, with a little bit of prompting and user review in the end. 
+You can find out for yourself by plaing with the [demo on this link](https://deepspaceharbor.github.io/entity-search-poc/).
 
-If you're seeing this, you've probably already done this step. Congrats!
+⚠️ This is Proof Of Concept project, if you get stuck, reload the page.
 
-```sh
-# create a new project in the current directory
-npx sv create
+⚠️ All of the work is done in the browser with the help of web based LLM. It may not work on every device.
 
-# create a new project in my-app
-npx sv create my-app
-```
+## Screenshots
+<img width="656" height="334" alt="image" src="https://github.com/user-attachments/assets/8cf49904-46f8-45b0-9f16-45fa2425f9f8" />
+<img width="2474" height="1868" alt="deepspaceharbor github io_entity-search-poc_companies_" src="https://github.com/user-attachments/assets/e1ebe22c-5a7e-40fb-ac01-1c078dc1da08" />
+<img width="2474" height="1868" alt="deepspaceharbor github io_entity-search-poc_people_" src="https://github.com/user-attachments/assets/2e8b5f07-a329-4ba7-8864-632a0903f5f2" />
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
