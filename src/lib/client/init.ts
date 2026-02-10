@@ -1,2 +1,0 @@
-// FyonUI
-import('flyonui/flyonui');
